@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="page">
+  <view class="history" wx:for="{{images}}" wx:key="index" data-index="{{index}}">
+    <image
+      class="history__img"
+      bindtap="tapPreviewImage"
+      data-index="{{index}}"
+      mode="aspectFit"
+      src="{{item.url}}"
+      style="background: {{item.bg}}"
+    ></image>
+    <view class="history__time">{{item.time}}</view>
+  </view>
+</view>

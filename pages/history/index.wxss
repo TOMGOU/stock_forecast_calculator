@@ -1,0 +1,17 @@
+/**index.wxss**/
+.history {
+
+}
+.history__img {
+  display: block;
+  width: 400rpx;
+  margin: auto;
+  border: 1rpx solid #eee;
+}
+.history__time {
+  width: 400rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  margin: 0 auto 20rpx;
+}
